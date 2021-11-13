@@ -1,0 +1,23 @@
+.img {
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  margin: 2px 5px;
+}
+
+.message {
+  display: flex;
+  /* background-color: black; */
+}
+
+.text {
+  border-radius: 50px;
+
+  background-color: #e5e5ea;
+  color:rgb(37, 40, 42) ;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  max-width: 500px;
+  overflow-wrap: break-word;
+}
