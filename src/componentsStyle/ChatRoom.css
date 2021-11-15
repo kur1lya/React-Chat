@@ -1,9 +1,10 @@
-.box {
+.boxx {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: rgb(53, 51, 68);
   width: 700px;
+  min-height: 100vh;
+  padding-top: 20px;
 }
 
 .form_bottom {
@@ -29,17 +30,27 @@
   background-color: #40cfff;
   border: 0px;
   cursor: pointer;
-
-  
 }
 
 .button_input:disabled {
   opacity: 0.5;
-  cursor:default;
-
+  cursor: default;
 }
 
 .img_button {
   width: 20px;
   height: 20px;
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  .boxx{
+    width: auto;
+  }
+    
 }

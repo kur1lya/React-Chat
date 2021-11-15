@@ -1,9 +1,7 @@
 import React from 'react'
-import firebase from 'firebase/compat/app';
 import '../componentsStyle/ChatMessage.css'
 
 
-// const auth = firebase.auth()
 
 
 function ChatMessage(props) {

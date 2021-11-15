@@ -1,0 +1,26 @@
+.signIn_button {
+  cursor: pointer;
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  background-color: rgb(0, 86, 184);
+  border: none;
+  font-weight: bolder;
+  color: aliceblue;
+
+  display:flex;
+  align-items: center;
+  border-radius: 2px;
+
+}
+
+.img_button_google {
+  height: 30px;
+  width: 30px;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+.signIn h1{
+color: aliceblue;
+}

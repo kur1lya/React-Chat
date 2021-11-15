@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(32, 35, 42);
 }
 
 code {
@@ -12,50 +14,5 @@ code {
     monospace;
 }
 
-.App {
-  display: flex;
-  justify-content: center;
 
-  background-color: #282c34;
-}
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #181717;
-  position: fixed;
-  overflow-y: scroll;
-  max-width: 700px;
-  width: 100%;
-  top: 0;
-
-  /* height: 100px; */
-}
-
-.box {
-  /* background-image: url(https://wallpapercave.com/wp/wp8092769.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-size: 100% 100%; */
-
-}
-
-.content {
-  padding-top: 100px;
-  padding-bottom: 40px;
-}
-
-.signout {
-  padding-right: 40px;
-}
-
-.signOut_button {
-  cursor: pointer;
-  text-align: center;
-  height: 40px;
-  width: 100px;
-  background-color: #04aa6d;
-  border: none;
-  border-radius: 20px;
-}
